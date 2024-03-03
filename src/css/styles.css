@@ -1,0 +1,267 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --black-color: #000;
+    --white-color: #f7f6f6;
+    --gray-color: #9b9797;
+    --graydark-color: #343A40;
+    --lightBlue-color: #d8dfe8;
+    --darkBlue-color: #0A3871;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-size: 100%;
+    /*clamp(min, expected, max) Define o tamanho da fonte controlando o mínimo, expectativa e máximo.*/
+
+}
+
+
+body {
+    background: var(--lightBlue-color);
+    min-block-size: 100vh;
+}
+
+.main-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 8% 60% 27%;
+    min-block-size: 100vh;
+    max-inline-size: 1400rem;
+    padding: 2.5rem;
+    inline-size: 100%;
+}
+
+
+
+.container-textArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    min-inline-size: 24rem;
+}
+
+.text-area {
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    height: calc(100% - 8rem);
+    border: none;
+    color: var(--darkBlue-color);
+    background: transparent;
+    padding-top: 10%;
+}
+
+.text-area::placeholder {
+    color: var(--darkBlue-color);
+    font-size: 2rem;
+}
+
+.text-area:focus {
+    border: none;
+}
+
+.informacao {
+    display: flex;
+    gap: 0.75em;
+    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+}
+
+.informacao h6 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.botoes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn-default {
+    inline-size: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--darkBlue-color);
+    background-color: transparent;
+    color: var(--darkBlue-color);
+    cursor: pointer;
+    transition: background-color .2s ease-in;
+}
+
+.btn-default:hover {
+    background-color: var(--darkBlue-color);
+    color: var(--white-color);
+}
+
+.container-mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 0;
+    gap: 2rem;
+    min-inline-size: 17rem;
+    max-block-size: 100vh;
+    border-radius: 24px;
+    padding: 2rem;
+    border: none;
+    background-color: var(--white-color);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem-text {
+    font-size: 2rem;
+    color: var(--gray-color);
+    block-size: 100%;
+    resize: none;
+    border: none;
+    background: transparent;
+}
+
+.mensagem-text:focus {
+    border: none;
+    outline: none;
+}
+
+.mensagem-text.hidden {
+    display: none;
+}
+
+.sem-mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0;
+    gap: 1rem;
+    margin: auto;
+}
+
+.sem_mensagem-img {
+    max-inline-size: 100%;
+    /* Não permite a imagem transbordar o container que pertence */
+    block-size: auto;
+    /* significa que a proporção das imagens vai permanecer constante. */
+    object-fit: contain;
+    /* object-fit -> mantem a proporção da imagem. object-fit: contain; instrui manter a proporção mesmo com espaço em branco e - object-fit: cover; instrui a manter a proporção mesmo cortando parte da imagem */
+}
+
+.sem-mensagem.hidden {
+    display: none;
+}
+
+.info-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.info-subtitle {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#btnCopiar.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 72rem) {
+    .logoAlura {
+        margin-left: -43px;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10% 50% 30%;
+        gap: 4rem;
+        block-size: auto;
+    }
+
+    .container-textArea {
+        margin-top: 2rem;
+        padding: 0;
+        min-block-size: 30rem;
+    }
+
+    .text-area {
+        padding: 0;
+    }
+
+    .container-mensagem {
+        max-block-size: 23rem;
+    }
+    .mensagem-text {
+        font-size: 1.5rem;
+    }
+
+    .sem_mensagem-img {
+        display: none;
+    }
+
+    .info-title {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 28.7rem) {
+    .main-container {
+        min-block-size: 100vh;
+    }
+
+    .container-textArea {
+        min-inline-size: 10rem;
+    }
+
+    .text-area {
+        font-size: 1.5rem
+    }
+
+    .text-area::placeholder {
+        font-size: 1.5rem;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .mensagem-text {
+        font-size: 1rem;
+    }
+
+    .info-title {
+        margin: 0;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: var(--graydark-color);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited,
+footer a {
+    color: var(--darkBlue-color);
+}
