@@ -6,6 +6,8 @@ Seja bem-vindo ao repositório do Challenge Decodificador de Texto com JavaScrip
 
 <img src="https://github.com/dyonneEberty/decodificador-js/blob/main/src/img/Encriptador.png?raw=true" style="width: 60%" /> <img src="https://github.com/dyonneEberty/decodificador-js/blob/main/src/img/Encriptador2.png?raw=true" style="width: 20%" />
 
+#### Deploy: [passwordGenerator](https://dyonneeberty.github.io/decodificador-js/)
+
 ## Descrição
 
 O Challenge Decodificador de Texto com JavaScript é uma iniciativa emocionante que desafia os participantes a explorarem os segredos da criptografia de mensagens. Com uma interface intuitiva e funcionalidades poderosas, este projeto oferece uma experiência de aprendizado envolvente e prática.
