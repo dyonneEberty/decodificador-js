@@ -2,6 +2,10 @@
 
 Seja bem-vindo ao repositório do Challenge Decodificador de Texto com JavaScript! Este projeto oferece uma abordagem dinâmica e interativa para explorar os conceitos fundamentais da criptografia de mensagens utilizando JavaScript.
 
+<img src="https://github.com/dyonneEberty/decodificador-js/blob/main/src/img/decodificador.png?raw=true" style="width: 700px" />
+
+<img src="https://github.com/dyonneEberty/decodificador-js/blob/main/src/img/Encriptador.png?raw=true" style="width: 60%" /> <img src="https://github.com/dyonneEberty/decodificador-js/blob/main/src/img/Encriptador2.png?raw=true" style="width: 20%" />
+
 ## Descrição
 
 O Challenge Decodificador de Texto com JavaScript é uma iniciativa emocionante que desafia os participantes a explorarem os segredos da criptografia de mensagens. Com uma interface intuitiva e funcionalidades poderosas, este projeto oferece uma experiência de aprendizado envolvente e prática.
@@ -15,6 +19,7 @@ Neste desafio, enfrentei algumas dificuldades que, com dedicação e empenho, fo
 - **Manipulação da Box Container e seus Filhos**: Aprofundei meu entendimento sobre a manipulação da box container e seus elementos filhos, garantindo uma estrutura coesa e funcional para a aplicação.
 
 ## Tecnologias
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 - **JavaScript**: A espinha dorsal da nossa aplicação, com uma abordagem de responsabilidade única para funções e aplicação do conceito de closures para garantir uma lógica robusta e escalável.
 - **CSS Grid e Flexbox**: Utilizamos o poder do CSS Grid e Flexbox para criar um layout responsivo e elegante, garantindo uma experiência visualmente atraente em qualquer dispositivo.
