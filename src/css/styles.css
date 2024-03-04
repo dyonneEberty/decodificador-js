@@ -221,7 +221,7 @@ body {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 10% 50% 30%;
-        gap: 4rem;
+        gap: 5rem;
         block-size: auto;
     }
 
@@ -241,6 +241,9 @@ body {
         flex-direction: column;
     }
 
+    .container-mensagem {
+        margin-bottom: 3rem;
+    }
     .mensagem-text {
         font-size: 1rem;
     }
