@@ -221,7 +221,7 @@ body {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 10% 50% 30%;
-        gap: 4rem;
+        gap: 4.3rem;
     }
 
     .container-textArea {
@@ -242,7 +242,7 @@ body {
     }
 
     .container-mensagem {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .mensagem-text {
         font-size: 1rem;
@@ -256,7 +256,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 1.4rem;
+    padding: 1.4rem 0rem;
 }
 
 footer p {
