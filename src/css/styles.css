@@ -221,12 +221,12 @@ body {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 10% 50% 30%;
-        gap: 5rem;
-        block-size: auto;
+        gap: 4rem;
     }
 
     .container-textArea {
         min-inline-size: 10rem;
+        margin-top: 0;
     }
 
     .text-area {
@@ -242,7 +242,7 @@ body {
     }
 
     .container-mensagem {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     .mensagem-text {
         font-size: 1rem;
@@ -256,7 +256,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 5px;
+    padding-bottom: 1.4rem;
 }
 
 footer p {
