@@ -217,9 +217,13 @@ body {
 }
 
 @media screen and (max-width: 28.7rem) {
-    /* .main-container {
-        min-block-size: 100vh;
-    } */
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10% 50% 30%;
+        gap: 4rem;
+        block-size: auto;
+    }
 
     .container-textArea {
         min-inline-size: 10rem;
