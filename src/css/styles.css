@@ -217,9 +217,9 @@ body {
 }
 
 @media screen and (max-width: 28.7rem) {
-    .main-container {
+    /* .main-container {
         min-block-size: 100vh;
-    }
+    } */
 
     .container-textArea {
         min-inline-size: 10rem;
